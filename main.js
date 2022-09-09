@@ -437,6 +437,10 @@ function dai1monOnePPushTime() {
     if (dai1monOnePsentakuTime === 10 && OnePAnswers === 0) {
         OnePAnswers = -1;
         T.style.display = 'none';
+        sentakushi.style.display = 'none';
+        sentakushi2.style.display = 'none';
+        sentakushi3.style.display = 'none';
+        sentakushi4.style.display = 'none';
         clearInterval(dai1monOnePPushTime);
         console.log(dai1monOnePsentakuTime);
         dai1monShuyakuPushTime();
@@ -883,6 +887,10 @@ function dai2monOnePPushTime() {
     if (dai2monOnePsentakuTime === 10 && OnePAnswers2 === 0) {
         T.style.display = 'none';
         OnePAnswers2 = -1;
+        sentakushi5.style.display = 'none';
+        sentakushi6.style.display = 'none';
+        sentakushi7.style.display = 'none';
+        sentakushi8.style.display = 'none';
         clearInterval(dai2monOnePPushTime);
         console.log(dai2monOnePsentakuTime);
         dai2monShuyakuPushTime();
@@ -1319,6 +1327,10 @@ function dai3monOnePPushTime() {
     if (dai3monOnePsentakuTime === 13 && OnePAnswers3 === 0) {
         T.style.display = 'none';
         OnePAnswers3 = -1;
+        sentakushi9.style.display = 'none';
+        sentakushi10.style.display = 'none';
+        sentakushi11.style.display = 'none';
+        sentakushi12.style.display = 'none';    
         clearInterval(dai3monOnePPushTime);
         console.log(dai3monOnePsentakuTime);
         dai3monShuyakuPushTime();
@@ -1760,6 +1772,10 @@ function dai4monOnePPushTime() {
     if (dai4monOnePsentakuTime === 10 && OnePAnswers4 === 0) {
         T.style.display = 'none';
         OnePAnswers4 = -1;
+        sentakushi13.style.display = 'none';
+        sentakushi14.style.display = 'none';
+        sentakushi15.style.display = 'none';
+        sentakushi16.style.display = 'none';
         clearInterval(dai4monOnePPushTime);
         console.log(dai4monOnePsentakuTime);
         dai4monShuyakuPushTime();
@@ -2192,6 +2208,10 @@ function dai5monOnePPushTime() {
     if (dai5monOnePsentakuTime === 10 && OnePAnswers5 === 0) {
         T.style.display = 'none';
         OnePAnswers4 = -1;
+        sentakushi17.style.display = 'none';
+        sentakushi18.style.display = 'none';
+        sentakushi19.style.display = 'none';
+        sentakushi20.style.display = 'none';
         clearInterval(dai5monOnePPushTime);
         console.log(dai5monOnePsentakuTime);
         dai5monShuyakuPushTime();
