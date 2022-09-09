@@ -102,6 +102,535 @@
     background-color: rgb(255, 238, 109);
     cursor: pointer;
 }
+
+#sentakushi5 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 60%;
+    background-color: rgb(255, 109, 109);
+    cursor: pointer;
+}
+#sentakushi6 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    right: 60%;
+    background-color: rgb(109, 141, 255);
+    cursor: pointer;
+}
+#sentakushi7 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    left: 60%;
+    background-color: rgb(49, 151, 44);
+    cursor: pointer;
+}
+#sentakushi8 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 80%;
+    background-color: rgb(255, 238, 109);
+    cursor: pointer;
+}
+
+#sentakushi9 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 60%;
+    background-color: rgb(255, 109, 109);
+    cursor: pointer;
+}
+#sentakushi10 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    right: 60%;
+    background-color: rgb(109, 141, 255);
+    cursor: pointer;
+}
+#sentakushi11 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    left: 60%;
+    background-color: rgb(49, 151, 44);
+    cursor: pointer;
+}
+#sentakushi12 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 80%;
+    background-color: rgb(255, 238, 109);
+    cursor: pointer;
+}
+#sentakushi13 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 60%;
+    background-color: rgb(255, 109, 109);
+    cursor: pointer;
+}
+#sentakushi14 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    right: 60%;
+    background-color: rgb(109, 141, 255);
+    cursor: pointer;
+}
+#sentakushi15 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    left: 60%;
+    background-color: rgb(49, 151, 44);
+    cursor: pointer;
+}
+#sentakushi16 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 80%;
+    background-color: rgb(255, 238, 109);
+    cursor: pointer;
+}
+#sentakushi17 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 60%;
+    background-color: rgb(255, 109, 109);
+    cursor: pointer;
+}
+#sentakushi18 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    right: 60%;
+    background-color: rgb(109, 141, 255);
+    cursor: pointer;
+}
+#sentakushi19 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    left: 60%;
+    background-color: rgb(49, 151, 44);
+    cursor: pointer;
+}
+#sentakushi20 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 80%;
+    background-color: rgb(255, 238, 109);
+    cursor: pointer;
+}
+
+#sentakushi21 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 60%;
+    background-color: rgb(255, 109, 109);
+    cursor: pointer;
+}
+#sentakushi22 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    right: 60%;
+    background-color: rgb(109, 141, 255);
+    cursor: pointer;
+}
+#sentakushi23 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    left: 60%;
+    background-color: rgb(49, 151, 44);
+    cursor: pointer;
+}
+#sentakushi24 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 80%;
+    background-color: rgb(255, 238, 109);
+    cursor: pointer;
+}
+
+#sentakushi25 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 60%;
+    background-color: rgb(255, 109, 109);
+    cursor: pointer;
+}
+#sentakushi26 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    right: 60%;
+    background-color: rgb(109, 141, 255);
+    cursor: pointer;
+}
+#sentakushi27 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    left: 60%;
+    background-color: rgb(49, 151, 44);
+    cursor: pointer;
+}
+#sentakushi28 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 80%;
+    background-color: rgb(255, 238, 109);
+    cursor: pointer;
+}
+
+#sentakushi29 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 60%;
+    background-color: rgb(255, 109, 109);
+    cursor: pointer;
+}
+#sentakushi30 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    right: 60%;
+    background-color: rgb(109, 141, 255);
+    cursor: pointer;
+}
+#sentakushi31 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    left: 60%;
+    background-color: rgb(49, 151, 44);
+    cursor: pointer;
+}
+#sentakushi32 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 80%;
+    background-color: rgb(255, 238, 109);
+    cursor: pointer;
+}
+#sentakushi33 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 60%;
+    background-color: rgb(255, 109, 109);
+    cursor: pointer;
+}
+#sentakushi34 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    right: 60%;
+    background-color: rgb(109, 141, 255);
+    cursor: pointer;
+}
+#sentakushi35 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    left: 60%;
+    background-color: rgb(49, 151, 44);
+    cursor: pointer;
+}
+#sentakushi36 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 80%;
+    background-color: rgb(255, 238, 109);
+    cursor: pointer;
+}
+#sentakushi37 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 60%;
+    background-color: rgb(255, 109, 109);
+    cursor: pointer;
+}
+#sentakushi38 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    right: 60%;
+    background-color: rgb(109, 141, 255);
+    cursor: pointer;
+}
+#sentakushi39 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 70%;
+    left: 60%;
+    background-color: rgb(49, 151, 44);
+    cursor: pointer;
+}
+#sentakushi40 {
+    width: 200px;
+    height: auto;
+    font-size: 20;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    border: 10px;
+    border-color: black;
+    border: solid;
+    top: 80%;
+    background-color: rgb(255, 238, 109);
+    cursor: pointer;
+}
+
+
 #timertext {
     width: 200px;
     height: auto;
