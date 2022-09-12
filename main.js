@@ -59,6 +59,7 @@ const sentakushi40 = document.getElementById('sentakushi40');
 
 const seigohanteitext = document.getElementById('seigohanteitext');
 const mouitidoButton = document.getElementById('mou');
+const credit = document.getElementById('credit');
 const pushSE = new Audio('push.mp3');
 const QSE = new Audio('Q.mp3');
 const SSE = new Audio('S.mp3');
@@ -226,11 +227,13 @@ mondai.style.display = 'none';
 
 title.innerText = "気持ちを当てましょ\nマジでマジで";
 subtitle.innerText = "2人で遊んでください\n主役を決めてください";
+credit.innerText = "出題BGM　アオサキ様\nSE 魔王魂様/効果音ラボ様"
 
 function push() {
     pushSE.play();//音を流す。
     startbutton.style.display = 'none';
     title.style.display = 'none';
+    credit.style.display = 'none';
     subtitle.style.display = 'none'; // 各テロップ消す
     dai1monhyoujijunbi();
 }
@@ -670,7 +673,7 @@ function dai1monSeikaihappyou() {
             seigohanteitext.style.display = 'block';
         } else if (ShuyakuAnswers !== OnePAnswers) {
             HuseikaiSE.play();
-            seigohanteitext.innerText = "不正解・・・";
+            seigohanteitext.innerText = "不正解";
             seigohanteitext.style.color = 'navy';
             seigohanteitext.style.display = 'block';
         }
@@ -1091,7 +1094,7 @@ function dai2monSeikaihappyou() {
         if (ShuyakuAnswers2 === 4 && odai2 === 5) {
             title.innerText = "正解は④番の\n抹茶味でした!!";
         }
-    } else if (dai2monSeikaihappyouTime === 12) {
+    } else if (dai2monSeikaihappyouTime === 13) {
         if (OnePAnswers2 === -1) {
             title.innerText = "1Pの答え\n無回答";
         } else if (OnePAnswers2 === 1) {
@@ -1103,7 +1106,7 @@ function dai2monSeikaihappyou() {
         } else if (OnePAnswers2 === 4) {
             title.innerText = "1Pの答え\n④";
         }
-    } else if (dai2monSeikaihappyouTime === 14) {
+    } else if (dai2monSeikaihappyouTime === 15) {
         if (ShuyakuAnswers2 === OnePAnswers2) {
             SeikaiSE.play();
             seigohanteitext.innerText = "正解!!";
@@ -1112,15 +1115,15 @@ function dai2monSeikaihappyou() {
             seigohanteitext.style.display = 'block';
         } else if (ShuyakuAnswers2 !== OnePAnswers2) {
             HuseikaiSE.play();
-            seigohanteitext.innerText = "不正解・・・";
+            seigohanteitext.innerText = "不正解";
             seigohanteitext.style.color = 'navy';
             seigohanteitext.style.display = 'block';
         }
-    } else if (dai2monSeikaihappyouTime === 17) {
+    } else if (dai2monSeikaihappyouTime === 16) {
         title.style.display = 'none';
         seigohanteitext.style.display = 'none';
         seigohanteitext.innerText = "";
-    } else if (dai2monSeikaihappyouTime === 18) {
+    } else if (dai2monSeikaihappyouTime === 17) {
         clearInterval(dai2monSeikaihappyou);
         console.log(dai2monSeikaihappyouTime);
         push3()
@@ -1536,7 +1539,7 @@ function dai3monSeikaihappyou() {
         if (ShuyakuAnswers3 === 4 && odai3 === 5) {
             title.innerText = "正解は④番の\nバンジージャンプでした!!";
         }
-    } else if (dai3monSeikaihappyouTime === 12) {
+    } else if (dai3monSeikaihappyouTime === 13) {
         if (OnePAnswers3 === -1) {
             title.innerText = "1Pの答え\n無回答";
         } else if (OnePAnswers3 === 1) {
@@ -1548,7 +1551,7 @@ function dai3monSeikaihappyou() {
         } else if (OnePAnswers3 === 4) {
             title.innerText = "1Pの答え\n④";
         }
-    } else if (dai3monSeikaihappyouTime === 14) {
+    } else if (dai3monSeikaihappyouTime === 15) {
         if (ShuyakuAnswers3 === OnePAnswers3) {
             SeikaiSE.play();
             seigohanteitext.innerText = "正解!!";
@@ -1557,15 +1560,15 @@ function dai3monSeikaihappyou() {
             seigohanteitext.style.display = 'block';
         } else if (ShuyakuAnswers3 !== OnePAnswers3) {
             HuseikaiSE.play();
-            seigohanteitext.innerText = "不正解・・・";
+            seigohanteitext.innerText = "不正解";
             seigohanteitext.style.color = 'navy';
             seigohanteitext.style.display = 'block';
         }
-    } else if (dai3monSeikaihappyouTime === 17) {
+    } else if (dai3monSeikaihappyouTime === 16) {
         title.style.display = 'none';
         seigohanteitext.style.display = 'none';
         seigohanteitext.innerText = "";
-    } else if (dai3monSeikaihappyouTime === 18) {
+    } else if (dai3monSeikaihappyouTime === 17) {
         clearInterval(dai3monSeikaihappyou);
         console.log(dai3monSeikaihappyouTime);
         push4();
@@ -1981,7 +1984,7 @@ function dai4monSeikaihappyou() {
         if (ShuyakuAnswers4 === 4 && odai4 === 5) {
             title.innerText = "正解は④番の\n英語でした!!";
         }
-    } else if (dai4monSeikaihappyouTime === 12) {
+    } else if (dai4monSeikaihappyouTime === 13) {
         if (OnePAnswers4 === -1) {
             title.innerText = "1Pの答え\n無回答";
         } else if (OnePAnswers4 === 1) {
@@ -1993,7 +1996,7 @@ function dai4monSeikaihappyou() {
         } else if (OnePAnswers4 === 4) {
             title.innerText = "1Pの答え\n④";
         }
-    } else if (dai4monSeikaihappyouTime === 14) {
+    } else if (dai4monSeikaihappyouTime === 15) {
         if (ShuyakuAnswers4 === OnePAnswers4) {
             SeikaiSE.play();
             seigohanteitext.innerText = "正解!!";
@@ -2002,15 +2005,15 @@ function dai4monSeikaihappyou() {
             seigohanteitext.style.display = 'block';
         } else if (ShuyakuAnswers4 !== OnePAnswers4) {
             HuseikaiSE.play();
-            seigohanteitext.innerText = "不正解・・・";
+            seigohanteitext.innerText = "不正解";
             seigohanteitext.style.color = 'navy';
             seigohanteitext.style.display = 'block';
         }
-    } else if (dai4monSeikaihappyouTime === 17) {
+    } else if (dai4monSeikaihappyouTime === 16) {
         title.style.display = 'none';
         seigohanteitext.style.display = 'none';
         seigohanteitext.innerText = "";
-    } else if (dai4monSeikaihappyouTime === 18) {
+    } else if (dai4monSeikaihappyouTime === 17) {
         clearInterval(dai4monSeikaihappyou);
         console.log(dai4monSeikaihappyouTime);
         push5();
@@ -2417,7 +2420,7 @@ function dai5monSeikaihappyou() {
         if (ShuyakuAnswers5 === 4 && odai5 === 5) {
             title.innerText = "正解は④番の\n雑学でした!!";
         }
-    } else if (dai5monSeikaihappyouTime === 12) {
+    } else if (dai5monSeikaihappyouTime === 13) {
         if (OnePAnswers5 === -1) {
             title.innerText = "1Pの答え\n無回答";
         } else if (OnePAnswers5 === 1) {
@@ -2429,7 +2432,7 @@ function dai5monSeikaihappyou() {
         } else if (OnePAnswers5 === 4) {
             title.innerText = "1Pの答え\n④";
         }
-    } else if (dai5monSeikaihappyouTime === 14) {
+    } else if (dai5monSeikaihappyouTime === 15) {
         if (ShuyakuAnswers5 === OnePAnswers5) {
             SeikaiSE.play();
             seigohanteitext.innerText = "正解!!";
@@ -2438,15 +2441,15 @@ function dai5monSeikaihappyou() {
             seigohanteitext.style.display = 'block';
         } else if (ShuyakuAnswers5 !== OnePAnswers5) {
             HuseikaiSE.play();
-            seigohanteitext.innerText = "不正解・・・";
+            seigohanteitext.innerText = "不正解";
             seigohanteitext.style.color = 'navy';
             seigohanteitext.style.display = 'block';
         }
-    } else if (dai5monSeikaihappyouTime === 17) {
+    } else if (dai5monSeikaihappyouTime === 16) {
         title.style.display = 'none';
         seigohanteitext.style.display = 'none';
         seigohanteitext.innerText = "";
-    } else if (dai5monSeikaihappyouTime === 18) {
+    } else if (dai5monSeikaihappyouTime === 17) {
         clearInterval(dai5monSeikaihappyou);
         console.log(dai5monSeikaihappyouTime);
         kekkaTimer = setInterval(kekkahappyoujijunbi, 1000);
