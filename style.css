@@ -630,7 +630,6 @@
     cursor: pointer;
 }
 
-
 #timertext {
     width: 200px;
     height: auto;
@@ -654,4 +653,12 @@
     position: absolute;
     text-align: center;
     top: 70%;
+}
+#credit {
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    height: auto;
+    bottom: 20%;
+    left: 10%;
 }
