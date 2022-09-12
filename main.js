@@ -2464,7 +2464,7 @@ function dai5monSeikaihappyou() {
     } else if (dai5monSeikaihappyouTime === 17) {
         clearInterval(dai5monSeikaihappyou);
         console.log(dai5monSeikaihappyouTime);
-        kekkahappyoujijunbi();
+        kekkaTimer = setInterval (kekkahappyoujijunbi, 1000);
     }
 }
 function kekkahappyoujijunbi() {
